@@ -1,0 +1,33 @@
+/* .slider h3,
+.slider h5 {
+    text-shadow: 1px 1px 3px rgb(0, 0, 0,0.9);
+
+} */
+
+.parallax-container {
+    height: 400px;
+  }
+
+.foto img{
+    height: auto;
+    width: 250px;
+    margin-top: 10px;
+    
+}
+img.circle.responsive-img{
+    border: 2px solid #bf360c;
+}
+img.instagram{
+    height: 15px;
+}
+.col.m6 img{
+    height: auto;
+    width: 500px;
+    margin-left: -80px;
+}
+.col.m6 h5{
+    padding-top: 100px;
+}
+section{
+    padding: 20px 0;
+}

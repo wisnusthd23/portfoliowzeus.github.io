@@ -1,0 +1,67 @@
+.container h3{
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+
+}
+
+.parallax-container {
+    height: 500%;
+  }
+
+.atas {
+    margin-top: -20px;
+}
+.pkiri{
+    font-size: 23px;
+}
+
+
+.foto img{
+    height: auto;
+    width: 150px;
+    margin-top: 10px;
+    
+}
+img.circle.responsive-img{
+    border: 2px solid #bf360c;
+}
+img.instagram{
+    height: 15px;
+}
+.col.m6 img{
+    height: auto;
+    width: 500px;
+    margin-left: -80px;
+    margin-top: -40px;
+}
+section{
+    padding: 20px 0;
+}
+.col.m4 img{
+    height: 100px;
+    width: 100px
+}
+
+.skills img{
+    max-width: 150px;
+    margin-top: 5px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.719));
+}
+
+.skil{
+    height: 10%;
+}
+
+.pkiri, .pkanan {
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(30deg);
+    transition: 2s;
+}
+
+.pkanan {
+    transform: translate(50px, 0);
+}
+
+.pkiri.pmuncul, .pkanan.pmuncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
